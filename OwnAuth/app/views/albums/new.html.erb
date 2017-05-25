@@ -1,0 +1,15 @@
+<form action="<%= albums_url %>" method="post">
+  <label>Pick a name for the album
+    <input type="text" name="album[name]" value="">
+  </label>
+  <input type="hidden" name="album[band_id]" value=" <%= params[:band_id] %> ">
+  <input type="submit" name="" value="SUBMIT ALBUM NAME">
+  <br>
+  <label>Choose whether it was live or recorded
+    <br>
+    <select name="album[style]">
+      <option value="Live"></option>
+      <option value="Recorded"></option>
+    </select>
+  </label>
+</form>

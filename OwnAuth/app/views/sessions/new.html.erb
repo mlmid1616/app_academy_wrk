@@ -1,0 +1,14 @@
+<form action="<%=sessions_url%>" method="post">
+  <label>What is your e-mail?
+    <input type="text" name="user[email]" value="">
+    </label>
+    <br>
+  <label>What is your password?
+    <input type="text" name="user[password]" value="">
+  </label>
+  <input type="submit" name="" value="LOGIN">
+</form>
+<br>
+<label>Don't have an account?
+<a href="<%= new_user_url %>">Create Account</a>
+</label>

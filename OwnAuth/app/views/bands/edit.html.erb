@@ -1,0 +1,9 @@
+<h2>MAKE A NEW NAME!!!</h2>
+
+<form action="<%= band_url(@band) %>" method="post">
+  <input type="hidden" name="_method" value="patch">
+  <label>What should the new name be?
+    <input type="text" name="band[name]" value="">
+  </label>
+  <input type="submit" name="" value="MAKE NEW NAME">
+</form>
