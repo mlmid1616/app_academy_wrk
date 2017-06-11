@@ -1,0 +1,11 @@
+.weather {
+  display: flex;
+  width: 60%;
+  height: 200px;
+  margin: 0 auto;
+  background: yellow;
+}
+
+.el {
+  justify-content: space-between;
+}

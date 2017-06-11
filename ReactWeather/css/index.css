@@ -1,0 +1,20 @@
+h1 {
+  font-size: 20px;
+  font-style: Roboto;
+}
+
+.orange {
+  display: block;
+  background: orange;
+  width: 60%;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.timeThingy {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
