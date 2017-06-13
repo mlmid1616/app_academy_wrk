@@ -4,7 +4,7 @@ import App from './app.jsx';
 
 const Root = (props) => {
   return(
-    <Provider store={ store }>
+    <Provider store={ props.store }>
       <App />
     </Provider>
   );
